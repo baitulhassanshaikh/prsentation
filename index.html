@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BizForge: Startup Pitch Blueprint</title>
+<style>
+:root{--bg:#f4f8f2;--card:#fff;--ink:#12241a;--mute:#53695b;--line:#d9e4d6;--g:#157a3d;--soft:#e4f2e7;--gold:#c8961a;--sg:#fcf3d9;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1611;--card:#15211a;--ink:#e8f1ea;--mute:#9bb0a2;--line:#26382d;--g:#46bd69;--soft:#173121;--gold:#e3b445;--sg:#2c2812;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1611;--card:#15211a;--ink:#e8f1ea;--mute:#9bb0a2;--line:#26382d;--g:#46bd69;--soft:#173121;--gold:#e3b445;--sg:#2c2812;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:0 20px}
+h1,h2{font-family:"Iowan Old Style",Georgia,serif;letter-spacing:-.02em}
+.hero{background:linear-gradient(140deg,#093d1e,#1b8c47);color:#fff;padding:56px 0 40px}
+.hero h1{font-size:clamp(52px,12vw,104px);margin:0;line-height:.95}
+.hero .l{font-size:clamp(18px,2.7vw,22px);max-width:620px;margin:16px 0}
+.hero i{font-style:normal;color:#f2d27a}
+.chips span{display:inline-block;border:1px solid rgba(255,255,255,.4);border-radius:99px;padding:3px 13px;margin:0 6px 6px 0;font-size:14px}
+.by{opacity:.85;font-size:14px;margin:12px 0 0}
+section{padding:40px 0 0}
+h2{font-size:28px;margin:0 0 4px;padding-left:12px;border-left:6px solid var(--gold);line-height:1.2}
+.sub{color:var(--mute);margin:6px 0 16px;max-width:680px}
+.g{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(215px,1fr))}
+.c{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.c h3{margin:0;font-size:18px}
+.c p{margin:6px 0 0;font-size:15px}
+.r{color:var(--g);font-weight:600;font-size:14px;margin:0!important}
+.ex{background:var(--sg);border-left:4px solid var(--gold);border-radius:6px;padding:8px 12px;font-size:14.5px;margin-top:10px!important}
+.story{background:var(--soft);border-radius:14px;padding:16px 20px;margin-bottom:14px;font-size:17px}
+.big{font-family:Georgia,serif;font-size:38px;font-weight:700;color:var(--g);line-height:1.1}
+.tl{list-style:none;margin:0;padding:0 0 0 14px;border-left:3px solid var(--g)}
+.tl li{position:relative;padding:0 0 12px 18px}
+.tl li:before{content:"";position:absolute;left:-23px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--gold);border:3px solid var(--bg)}
+.tl b{color:var(--g)}
+.bar{border-radius:10px;padding:10px 14px;margin:0 auto 8px;background:var(--soft);border:1px solid var(--line)}
+.bar.m{background:var(--g);color:var(--bg)}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14.5px;background:var(--card);border:1px solid var(--line)}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--soft)}
+.n{text-align:right;white-space:nowrap}
+.feat{border:2px solid var(--gold)}
+.price{font-family:Georgia,serif;font-size:34px;font-weight:700;margin:4px 0}
+.price small{font-size:14px;font-weight:400;color:var(--mute)}
+ul{padding-left:18px;margin:6px 0}
+svg{width:100%;height:auto;display:block}
+svg .b{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+svg .a{fill:var(--soft);stroke:var(--g);stroke-width:2}
+svg text{fill:var(--ink);font:600 13px system-ui,sans-serif;text-anchor:middle}
+svg .s{font-weight:400;font-size:11.5px;fill:var(--mute)}
+svg .l{stroke:var(--mute);stroke-width:1.5;fill:none}
+svg .h{fill:var(--mute)}
+.cta{background:linear-gradient(140deg,#093d1e,#1b8c47);color:#fff;border-radius:18px;padding:28px;margin:40px 0 16px}
+.cta h2{border-color:#f2d27a;font-size:26px}
+footer{color:var(--mute);font-size:13px;padding:8px 0 32px}
+</style></head><body>
+<header class="hero"><div class="w">
+<h1>BizForge<i>.</i></h1>
+<p class="l">One platform where a small business gets its brand, website, ads and online security. AI does the heavy work, and trained humans check it.</p>
+<div class="chips"><span>AI designer</span><span>AI web developer</span><span>AI advertiser</span><span>Cybersecurity</span><span>Machine learning</span></div>
+<p class="by">Startup Pitch Challenge blueprint · Baitulhassan, 16, Pakistan</p>
+</div></header>
+<main class="w">
+
+<section><h2>The problem</h2>
+<p class="sub">A good small business can still be invisible, overloaded and unsafe online.</p>
+<div class="story"><b>Meet Ayesha.</b> She bakes amazing cakes, but nobody online knows her shop exists. To fix that she would need a designer, a web developer, an ad agency and a security expert: four people and four bills.</div>
+<div class="g">
+<div class="c"><h3>Invisible</h3><p>No logo, website or ads, so customers never find her.</p></div>
+<div class="c"><h3>Too many tools</h3><p>Design, website, ads and safety are separate, costly and confusing.</p></div>
+<div class="c"><h3>Unprotected</h3><p>Phishing, fake payment links and hacked accounts. Around 4 in 10 cyberattacks hit small businesses (approximate).</p></div>
+<div class="c"><div class="big">~400 million</div><p>small businesses worldwide, around 5 million in Pakistan (both approximate).</p></div>
+</div></section>
+
+<section><h2>Our solution</h2>
+<p class="sub">Four modules, one subscription. Every module shares one customer profile, so the ads match the brand and Shield protects the site we built.</p>
+<div class="g">
+<div class="c"><h3>Brand Studio</h3><p class="r">AI designer</p><p>Logo, colors, posters, social posts.</p><p class="ex">Ayesha gets a cake logo and menu poster in 1 hour.</p><p>Checked by student designers.</p></div>
+<div class="c"><h3>Site Builder</h3><p class="r">AI web developer</p><p>Website or store in the local language, built from a short chat.</p><p class="ex">A site with an “Order on WhatsApp” button, live in 3 hours.</p><p>Checked by a developer.</p></div>
+<div class="c"><h3>Growth Engine</h3><p class="r">AI advertiser + machine learning</p><p>Writes ads, picks audiences, learns what works.</p><p class="ex">It spots that Friday evening posts bring the most orders and moves the budget there.</p><p>Checked weekly by a marketer.</p></div>
+<div class="c"><h3>Shield</h3><p class="r">Cybersecurity + machine learning</p><p>Scans accounts, flags scam links, 2-step login, daily backups.</p><p class="ex">It flags a fake “courier payment” link and warns her in plain Urdu.</p><p>Checked by a security analyst.</p></div>
+</div></section>
+
+<section><h2>Ayesha’s journey</h2>
+<p class="sub">An example of what one customer sees.</p>
+<ul class="tl">
+<li><b>Hour 0.</b> She sends her shop name, photos and price list on WhatsApp.</li>
+<li><b>Hour 1.</b> Logo and menu poster are ready, approved by a student designer.</li>
+<li><b>Hour 3.</b> Her website is live with an order button.</li>
+<li><b>Day 2.</b> Ads start with a small budget, for example $3 a day.</li>
+<li><b>Week 2.</b> The model moves her budget to the best posting time.</li>
+<li><b>Week 3.</b> Shield blocks a fake payment link before she clicks it.</li>
+<li><b>Month 1.</b> One simple report: visits, orders, money spent, threats blocked.</li>
+</ul></section>
+
+<section><h2>How the system fits together</h2>
+<p class="sub">The owner talks to one chat. Behind it, modules, humans and data work together, and every result makes the next one better.</p>
+<svg viewBox="0 0 720 290" role="img" aria-label="Owner request goes through four AI modules, a human review, and a shared data layer">
+<defs><marker id="m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path class="h" d="M0 0L10 5L0 10z"/></marker></defs>
+<rect class="b" x="10" y="8" width="700" height="36" rx="8"/><text x="360" y="31">Business owner: one WhatsApp message in, one simple report out</text>
+<path class="l" d="M90 44V76M270 44V76M450 44V76M630 44V76M90 140V172M270 140V172M450 140V172M630 140V172M360 208V236" marker-end="url(#m)"/>
+<rect class="b" x="10" y="76" width="160" height="64" rx="8"/><text x="90" y="102">Brand Studio</text><text class="s" x="90" y="121">AI designer</text>
+<rect class="b" x="190" y="76" width="160" height="64" rx="8"/><text x="270" y="102">Site Builder</text><text class="s" x="270" y="121">AI web developer</text>
+<rect class="b" x="370" y="76" width="160" height="64" rx="8"/><text x="450" y="102">Growth Engine</text><text class="s" x="450" y="121">AI advertiser</text>
+<rect class="b" x="550" y="76" width="160" height="64" rx="8"/><text x="630" y="102">Shield</text><text class="s" x="630" y="121">Cybersecurity</text>
+<rect class="b" x="10" y="172" width="700" height="36" rx="8"/><text x="360" y="195">Human review: students, freelancers, security analyst</text>
+<rect class="a" x="10" y="236" width="700" height="44" rx="8"/><text x="360" y="263">Shared data and ML layer: every result makes all four modules smarter</text>
+</svg>
+<p class="sub">We start with existing AI tools plus humans, and build our own models only once we have real data.</p>
+</section>
+
+<section><h2>Market and customers</h2>
+<p class="sub">We only need a tiny slice. Bars are not to scale; figures are approximate.</p>
+<div class="bar" style="width:100%"><b>All small businesses:</b> about 400 million</div>
+<div class="bar" style="width:72%;min-width:250px"><b>Realistic target (1%):</b> about 4 million, around $1.4 billion a year</div>
+<div class="bar m" style="width:46%;min-width:250px"><b>Our 3-year goal:</b> 6,000 businesses, about $2.9 million a year</div>
+<p class="sub">Who we serve first: Instagram and WhatsApp sellers, local shops and restaurants, salons, tutors and clinics, and small online stores, starting in our own city. Why now: more sellers are on WhatsApp and Instagram, AI tools are cheap enough to automate design and code, and online scams keep rising.</p>
+</section>
+
+<section><h2>Pricing</h2>
+<div class="g">
+<div class="c"><h3>Starter</h3><div class="price">$19<small> / month</small></div><p>Brand kit, one-page website, basic Shield, 4 posts a month.</p></div>
+<div class="c feat"><h3>Growth</h3><div class="price">$49<small> / month</small></div><p>Starter plus online store, ad management, monthly report. The owner pays the ad budget.</p></div>
+<div class="c"><h3>Pro</h3><div class="price">$129<small> / month</small></div><p>Growth plus advanced Shield, several shops, priority human support.</p></div>
+</div>
+<p class="ex">Example: Ayesha picks Growth. For $49 a month she gets her brand, store, ads and protection. Her first month is free as one of our first 5 customers.</p>
+</section>
+
+<section><h2>The money</h2>
+<p class="sub">Planning estimates in US dollars. Year-end customers: 150, 1,500 and 6,000. Income per customer: $30, $35 and $40 a month. Cost to serve: $12, $11 and $10. Winning a customer costs $60, and 5% leave each month.</p>
+<div class="tbl"><table>
+<tr><th>USD</th><th class="n">Year 1</th><th class="n">Year 2</th><th class="n">Year 3</th></tr>
+<tr><td>Average customers</td><td class="n">75</td><td class="n">825</td><td class="n">3,750</td></tr>
+<tr><td>Revenue</td><td class="n">27,000</td><td class="n">346,500</td><td class="n">1,800,000</td></tr>
+<tr><td>Cost to serve (AI, humans, hosting)</td><td class="n">10,800</td><td class="n">108,900</td><td class="n">450,000</td></tr>
+<tr><td>Team</td><td class="n">0</td><td class="n">120,000</td><td class="n">480,000</td></tr>
+<tr><td>Marketing and other</td><td class="n">6,000</td><td class="n">80,000</td><td class="n">520,000</td></tr>
+<tr><td><b>Profit</b> (total cost 16,800 / 308,900 / 1,450,000)</td><td class="n"><b>10,200</b></td><td class="n"><b>37,600</b></td><td class="n"><b>350,000</b></td></tr>
+</table></div>
+<p class="sub">Year 1 assumes the founders work unpaid.</p>
+<div class="g">
+<div class="c"><div class="big">60%</div><p>margin per customer in year 1 ($30 income, $12 cost).</p></div>
+<div class="c"><div class="big">3.3 months</div><p>to earn back the $60 cost of winning a customer.</p></div>
+<div class="c"><div class="big">6×</div><p>A customer stays about 20 months, worth about $360.</p></div>
+</div>
+<p class="sub">Funding: the start needs only $200 to $300 for tools, paid by the founders. A later first $100,000 would go 40% product, 30% team, 20% marketing, 10% security and legal.</p>
+</section>
+
+<section><h2>Where we start and how we grow</h2>
+<p class="sub">First 90 days, no code: choose 5 businesses we know, recruit 2 or 3 students, deliver a brand kit, website and security checklist by hand with existing AI tools, then start charging a small fee and automate the steps that repeat.</p>
+<div class="g">
+<div class="c feat"><h3>1. Start</h3><p class="r">Months 0-3</p><p>5 businesses, built by hand.</p><p class="ex">Goal: first paying customers.</p></div>
+<div class="c"><h3>2. Launch</h3><p class="r">Months 4-12</p><p>150 customers and a first dashboard.</p><p class="ex">Goal: churn under 5%.</p></div>
+<div class="c"><h3>3. Scale</h3><p class="r">Year 2</p><p>1,500 customers, our own ML models, an app and a shared marketplace.</p><p class="ex">Goal: profitable.</p></div>
+<div class="c"><h3>4. Expand</h3><p class="r">Year 3+</p><p>6,000+ customers, new countries, local-language ads, student-run city teams.</p><p class="ex">Goal: a playbook any city can copy.</p></div>
+</div></section>
+
+<section><h2>Competition</h2>
+<div class="tbl"><table>
+<tr><th>Today they use</th><th>Good at</th><th>Missing</th></tr>
+<tr><td>Website builders (Wix, Shopify)</td><td>Easy sites and stores</td><td>No ads or security; owner still does the work</td></tr>
+<tr><td>Design tools (Canva)</td><td>Easy designs</td><td>No website, ads or protection</td></tr>
+<tr><td>Ad platforms (Meta, Google)</td><td>Huge reach</td><td>Complex, easy to waste money</td></tr>
+<tr><td>Security tools</td><td>Strong protection</td><td>Built for big companies, costly</td></tr>
+<tr><td>Agencies</td><td>Full service</td><td>Too expensive for tiny shops</td></tr>
+</table></div>
+<p class="sub">BizForge joins all four jobs, in the owner’s language, at a small-business price, with humans checking the AI.</p>
+</section>
+
+<section><h2>Risks, rules and team</h2>
+<div class="g">
+<div class="c"><h3>Risks and answers</h3><ul><li>AI mistakes: human review and a quality checklist.</li><li>Data leak: encryption, least-access rules, regular audits.</li><li>Trust: free first month and results shown openly.</li><li>Copycats: local language, human support, data that improves with every customer.</li><li>AI costs: cheaper models for simple tasks.</li></ul></div>
+<div class="c"><h3>Our honest rules</h3><ul><li>No fake reviews, followers or misleading ads.</li><li>Customers own their data; we never sell it.</li><li>A human checks AI work before it is used.</li><li>We say plainly what is automated and what a person did.</li><li>We follow local privacy and advertising laws.</li></ul></div>
+<div class="c"><h3>Team</h3><ul><li>Founder: vision, customers, partners.</li><li>Tech and security leads: hired later.</li><li>Students and freelancers: reviewers paid per task.</li><li>Support: WhatsApp, in the owner’s language.</li></ul><p>Students under 18 do low-risk tasks only, never handle money or private data, and work with a parent’s permission.</p></div>
+</div></section>
+
+<div class="cta"><h2>Prize plan</h2>
+<p>If we win the $250, we will pay for tools and AI credits for our first 5 businesses, pay our first student reviewers, and set up secure hosting.</p>
+<p><b>Small businesses are the heart of every neighborhood. BizForge helps them be seen, work smarter and stay safe, and gives students a real way to earn and learn. Thank you.</b></p></div>
+</main>
+<footer class="w">Market and money figures are planning estimates.</footer>
+</body></html>
